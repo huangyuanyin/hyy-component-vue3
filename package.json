@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "黄原寅",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^18.6.0",
+    "@commitlint/config-conventional": "^18.6.0",
     "@mistjs/eslint-config-vue-jsx": "^0.1.1",
     "@mistjs/tsconfig-vue": "^1.1.2",
     "@types/node": "^20.11.16",
     "eslint": "^8.56.0",
+    "husky": "^8.0.3",
     "prettier": "^3.2.4",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
