@@ -1,5 +1,11 @@
+<script lang="ts" setup>
+import Button from '../../../components/button'
+</script>
+
 <template>
-  <div>按钮</div>
+  <div>
+    <Button />
+  </div>
 </template>
 
 <style scoped></style>

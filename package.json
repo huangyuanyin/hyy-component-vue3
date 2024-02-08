@@ -34,5 +34,11 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
+  },
+  "dependencies": {
+    "@ant-design/colors": "^7.0.2",
+    "@antd-tiny-vue/cssinjs": "^0.0.11",
+    "@ctrl/tinycolor": "^4.0.3",
+    "@vueuse/core": "^10.7.2"
   }
 }
